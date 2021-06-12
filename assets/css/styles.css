@@ -1,0 +1,168 @@
+/* Layout */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    background-color: #800404;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+header {
+    position: relative;
+    grid-column: col-start / -1;
+    width: 100%;
+}
+
+/* ### SVG Divider ### */
+.custom-shape-divider-top-1623464696 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1623464696 svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1623464696 .shape-fill {
+    fill: #D42906;
+}
+
+/* ### Navbar ### */
+navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.home {
+    max-width: 25%;
+    align-self: center;
+    font-family: 'Codystar', cursive;
+    font-size: 2.5rem;
+}
+
+/* .logo-text {
+    width: auto;
+    max-height: 100px;
+} */
+
+navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.nav-links a, button {
+    padding: 0 1rem
+}
+
+.nav-links button {
+    color: white;
+    background-color: #D42906;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+
+
+/* Front Page */
+.front-page-content {
+    grid-column: col-start 3 / span 8;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.tagline {
+    margin: 1rem 4rem;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.front-page-content a {
+    color: white;
+}
+
+.logo-img {
+    width: 40%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    grid-column: col-start / -1;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+/* ### SVG Divider ### */
+.custom-shape-divider-bottom-1623465498 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1623465498 svg {
+    position: relative;
+    display: block;
+    width: calc(235% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1623465498 .shape-fill {
+    fill: #D42906;
+}
+
+footer p {
+    margin: 0;
+    padding: 0 0 .5rem 0;
+    color: white;
+}
+
+.social-links {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.social-links a {
+    color: white;
+}
