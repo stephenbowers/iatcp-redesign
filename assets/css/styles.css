@@ -13,6 +13,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.page-content {
+    grid-column: col-start 3 / span 8;
+}
 
 /* Header */
 header {
@@ -58,10 +61,29 @@ navbar {
     font-size: 2.5rem;
 }
 
-/* .logo-text {
-    width: auto;
-    max-height: 100px;
-} */
+@media screen and (max-width: 1450px) {
+    .home {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home {
+        font-size: 1rem;
+    }
+}
 
 navbar a{
     text-decoration: none;
@@ -109,6 +131,7 @@ navbar a{
 }
 
 .logo-img {
+    min-width: 200px;
     width: 40%;
     height: auto;
 }
@@ -123,6 +146,12 @@ footer {
     justify-content: center;
     padding: 0.5rem 0;
     position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    footer {
+        font-size: .75rem;
+    }
 }
 
 /* ### SVG Divider ### */
@@ -165,4 +194,16 @@ footer p {
 
 .social-links a {
     color: white;
+}
+
+
+/* Instructors Page */
+.instructors-page-content {
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.instructor {
+    text-align: left;
 }
