@@ -233,6 +233,11 @@ footer p {
 }
 
 /* Endoresements Page */
+.testimonials-page-content {
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
 
 /* Corporate Page */
 
