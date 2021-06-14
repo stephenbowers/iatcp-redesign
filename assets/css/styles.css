@@ -240,6 +240,14 @@ footer p {
 }
 
 /* Corporate Page */
+.corporate-page-content {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.corporate-page-content h2 {
+    text-align: center;
+}
 
 /* Shows Page */
 
