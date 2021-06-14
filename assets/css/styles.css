@@ -223,6 +223,14 @@ footer p {
 }
 
 /* FAQs Page */
+.faq-page-content {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.faq-page-content h1 {
+    text-align: center;
+}
 
 /* Endoresements Page */
 
