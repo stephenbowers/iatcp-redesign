@@ -250,15 +250,23 @@ footer p {
 }
 
 /* Shows Page */
-.shows-content {
+.shows-page-content {
     color: white;
     margin-bottom: 2rem;
 }
 
-.shows-content h1, h3{
+.shows-page-content h1, h3{
     text-align: center;
 }
 
 /* Workshops Page */
+.workshops-page-content {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.workshops-page-content h1 {
+    text-align: center;
+}
 
 /* Note From Paul Page */
