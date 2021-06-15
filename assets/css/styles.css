@@ -270,3 +270,11 @@ footer p {
 }
 
 /* Note From Paul Page */
+.note-page-content {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.note-page-content h1 {
+    text-align: center;
+}
